@@ -5,6 +5,7 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
 import CoreStyles from 'react-awesome-slider/src/core/styles.scss';
 import About from './About';
 import Projects from './Projects';
+import Loader from './Loader/Loader';
 import NavMenu from './NavMenu';
 
 const Slider = ({ state, changeDir }) => {
@@ -18,7 +19,7 @@ const Slider = ({ state, changeDir }) => {
         <AwesomeSlider
           bullets={false}
           fillParent
-          startupScreen={<h1>Loading...</h1>}
+          startupScreen={<Loader />}
           buttons
           startup
           fillParent={true}

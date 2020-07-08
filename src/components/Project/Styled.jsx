@@ -1,24 +1,26 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
-  background-color: #333;
-  color: #eee;
+  background-color: #2f2f2f;
+  color: #8a8a8a;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 export const Slider = styled.div`
-  height: 75%;
-  width: 60%;
+  height: 55%;
+  width: 100%;
   /* overflow: hidden; */
   /* background-color: #000; */
   border-radius: 5px;
   position: relative;
+  padding-top: 1.3rem;
   .menu {
-    height: 7%;
+    height: 5%;
+    min-height: 1.4rem;
     width: 100%;
     position: absolute;
     top: 0;
@@ -61,24 +63,60 @@ export const Loader = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  background-color: #2f2f2f;
 `;
 export const Image = styled.img`
   object-fit: fit;
-  /* background-image: ${(props) => props.src};
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
+
   height: 100%;
   width: 100%;
 `;
 export const Main = styled.div`
-  width: 80%;
+  width: 60%;
+  padding: 4% 0;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  hr {
+    margin: 2rem 0;
+  }
+  /* align-items: center; */
+  h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    word-spacing: 1rem;
+  }
+  p {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+  }
   h1 {
     border-radius: 3px solid red;
+    font-size: 5rem;
+    font-weight: 300;
+  }
+  .about {
+    align-self: flex-start;
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+  .buttons {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    /* border: 3qpx solid red; */
+    justify-content: space-between;
+  }
+  .tech_sheet {
+    align-self: flex-start;
+
+    ul {
+      list-style-type: circle;
+      margin: 2rem 0;
+      padding: 0 1rem;
+    }
   }
 `;

@@ -12,6 +12,7 @@ const Projects = ({ state }) => {
       <div className='content'>
         <h2>React developer portfolio</h2>
         <p>My recent projects...</p>
+        <hr />
         <div className='skills'></div>
         <div className='projects'>
           {state.projects.map((project, index) => (
@@ -28,6 +29,7 @@ const Wrapper = styled.div`
   overflow: scroll;
   position: relative;
   width: 100vw;
+  color: #8a8a8a;
   .content {
     width: 80%;
     height: 100%;
@@ -35,14 +37,15 @@ const Wrapper = styled.div`
     margin: 0 auto;
     padding: 10rem;
     h2 {
-      color: #eee;
       word-spacing: 1.5rem;
       letter-spacing: 0.3rem;
       font-size: 4rem;
       text-transform: uppercase;
     }
+    hr {
+      margin-bottom: 2rem;
+    }
     p {
-      color: #999;
       font-size: 1.3rem;
       letter-spacing: 2px;
     }
