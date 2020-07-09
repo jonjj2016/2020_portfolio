@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+// import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
 import CoreStyles from 'react-awesome-slider/src/core/styles.scss';
 import About from './About';
