@@ -1,36 +1,61 @@
 export const projects = [{
         _id: '5ea1f2d07a979898371c966258',
         title: 'Color Code',
-        code: "color_code",
-        about: "",
-        list: ['React.js', 'Redux', 'Redux-saga', 'NodeJs', "Express", "JWT", 'Semantic UI React', "HTML5", "CSS3", "Javascript ES6", "ChromaJs"],
+        code: 'color_code',
+        about: '',
+        list: ['React.js', 'Redux', 'Redux-saga', 'NodeJs', 'Express', 'JWT', 'Semantic UI React', 'HTML5', 'CSS3', 'Javascript ES6', 'ChromaJs'],
         description: 'This is MERN stack app where you can pick eally cool palettes for your project,and are able to compose palettes as you whish and meny more. You can also register and save your palettes and load others as well.. ',
         siteLink: '',
         githubUrl: 'https://github.com/jonjj2016/color_code_client',
-        images: ["/images/projects/color_code/1.png", "/images/projects/color_code/2.png", "/images/projects/color_code/3.png", "/images/projects/color_code/4.png", "/images/projects/color_code/5.png", "/images/projects/color_code/6.png", "/images/projects/color_code/7.png", "/images/projects/color_code/8.png"],
-
+        images: [
+            '/images/projects/color_code/1.png',
+            '/images/projects/color_code/2.png',
+            '/images/projects/color_code/3.png',
+            '/images/projects/color_code/4.png',
+            '/images/projects/color_code/5.png',
+            '/images/projects/color_code/6.png',
+            '/images/projects/color_code/7.png',
+            '/images/projects/color_code/8.png',
+        ],
     },
-
     {
-        code: "typing_game",
+        code: 'unsplash_gallery',
+        _id: '5ea15f8d21c545ac138a3f',
+        title: 'Unsplash Gallery',
+        siteLink: 'https://imagegallery2019.netlify.app/',
+        list: ['HTML5', 'CSS3', 'Javascript ES6', 'ReactJs', 'Redux', 'Redux-saga', 'NodeJs', 'Styled-Components', 'Unsplash-js'],
+        description: 'Unsplash gallery with react infinite scroll feature and nice interface',
+        githubUrl: 'https://github.com/jonjj2016/gallery_client',
+        images: ['/images/projects/unsplash_gallery/1.png', '/images/projects/unsplash_gallery/2.png', '/images/projects/unsplash_gallery/3.png', '/images/projects/unsplash_gallery/4.png'],
+    },
+    {
+        code: 'react_conf',
+        _id: '5ea15f8d21c545ac138a3f',
+        title: 'React Conf 2019',
+        siteLink: 'https://reactconfarmeni2019.netlify.app/',
+        list: ['HTML5', 'CSS3', 'Javascript ES6', 'ReactJs', 'react-reveal', 'react-scroll', 'slick-carousel'],
+        description: 'This is one of my first Projects. .',
+        githubUrl: 'https://github.com/jonjj2016/the_meet_up',
+        images: ['/images/projects/react_conf/1.png', '/images/projects/react_conf/2.png', '/images/projects/react_conf/3.png', '/images/projects/react_conf/4.png', '/images/projects/react_conf/5.png'],
+    },
+    {
+        code: 'typing_game',
         _id: '5ea1f5425f8d21c545ac138a3f',
         title: 'Typing Game',
         siteLink: 'https://mytypo.netlify.app/',
-        list: ['Express', 'Nodejs', 'mongoDb', 'node-geocoder', 'JWT'],
+        list: ['HTML5', 'CSS3', 'Javascript ES6', 'ReactJs'],
         description: 'This i have finished couple of months ago, RestApi with Authentication Authorisation etc..',
-        githubUrl: "https://github.com/jonjj2016/typoV2/tree/master/src",
+        githubUrl: 'https://github.com/jonjj2016/typoV2/tree/master/src',
         codeImages: [],
-        images: ["/images/projects/typing_game/1.png", "/images/projects/typing_game/2.png", "/images/projects/typing_game/3.png", "/images/projects/typing_game/4.png"],
-
-
+        images: ['/images/projects/typing_game/1.png', '/images/projects/typing_game/2.png', '/images/projects/typing_game/3.png', '/images/projects/typing_game/4.png'],
     },
     {
-        code: "plumb_it",
+        code: 'plumb_it',
         _id: '5ea1f2198d21c545ac138a3c',
         title: 'Plumb it',
         siteLink: 'https://santexnik.netlify.app/',
-        images: ["/images/projects/plumb_it/1.png", "/images/projects/plumb_it/2.png", "/images/projects/plumb_it/3.png", "/images/projects/plumb_it/4.png", "/images/projects/plumb_it/5.png"],
-        list: ['react.js', 'styled-components', "HTML5", "CSS3", "Javascript ES6"],
+        images: ['/images/projects/plumb_it/1.png', '/images/projects/plumb_it/2.png', '/images/projects/plumb_it/3.png', '/images/projects/plumb_it/4.png', '/images/projects/plumb_it/5.png'],
+        list: ['react.js', 'styled-components', 'HTML5', 'CSS3', 'Javascript ES6'],
         description: 'This site is for ...',
         githubUrl: 'https://github.com/jonjj2016/plumber',
     },
@@ -44,31 +69,27 @@ export const projects = [{
     // },
 
     {
-        code: "tech_shop",
+        code: 'tech_shop',
         _id: '5ea1f2d07a9728371c966258',
         title: 'Tech_shop',
-        list: ['React', 'styled-componentd', 'bootstrap'],
+        list: ['HTML5', 'CSS3', 'Javascript ES6', 'ReactJs', 'styled-componentd', 'bootstrap'],
         description: 'This one is  just online shop',
         siteLink: 'http://jj-tech-store.netlify.app/',
         coverImage: '../utils/images/shop/1.jpg',
         githubUrl: 'https://github.com/jonjj2016/tech-shop',
         codeImages: [],
-        images: ["/images/projects/tech_shop/1.png", "/images/projects/tech_shop/2.png", "/images/projects/tech_shop/3.png", "/images/projects/tech_shop/4.png", "/images/projects/tech_shop/5.png"],
-
+        images: ['/images/projects/tech_shop/1.png', '/images/projects/tech_shop/2.png', '/images/projects/tech_shop/3.png', '/images/projects/tech_shop/4.png', '/images/projects/tech_shop/5.png'],
     },
 
-
-
-
     {
-        code: "rest_api",
+        code: 'rest_api',
         _id: '5ea1f25f8d21c545ac138a3f',
         title: 'Rest_Api',
         list: ['Express', 'Nodejs', 'mongoDb', 'node-geocoder', 'JWT'],
         description: 'This i have finished couple of months ago, RestApi with Authentication Authorisation etc..',
         githubUrl: 'https://github.com/jonjj2016/restAPI',
         codeImages: [],
-        images: ["/images/projects/rest_api/1.png"],
-
+        images: ['/images/projects/rest_api/1.png'],
     },
 ];
+//react_conf
